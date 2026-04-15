@@ -1,6 +1,6 @@
 # Traffic Classification System using Ryu Controller
 
-## 📌 Project Overview
+##  Project Overview
 
 This project implements a Software Defined Networking (SDN) application using the Ryu controller to classify network traffic based on protocol type.
 
@@ -14,7 +14,7 @@ It also maintains real-time statistics and displays traffic distribution.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 * Identify TCP, UDP, ICMP packets
 * Maintain protocol-wise statistics
@@ -23,7 +23,7 @@ It also maintains real-time statistics and displays traffic distribution.
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 * Mininet
 * Ryu Controller
@@ -32,7 +32,7 @@ It also maintains real-time statistics and displays traffic distribution.
 
 ---
 
-## 🧪 Network Topology
+##  Network Topology
 
 * 1 Switch (s1)
 * 3 Hosts (h1, h2, h3)
@@ -40,7 +40,7 @@ It also maintains real-time statistics and displays traffic distribution.
 
 ---
 
-## ▶️ Steps to Execute
+##  Steps to Execute
 
 ### 1. Clean Mininet
 
@@ -99,57 +99,57 @@ h2 iperf -c 10.0.0.1 -u -b 10M
 
 ---
 
-## 📸 Results & Screenshots
+##  Results & Screenshots
 
 ### 🔹 Network Setup
 
-![Network Setup](network_setup.png)
+![Network Setup](screenshots/network_setup.png)
 
 ---
 
 ### 🔹 Ping Test (ICMP Success)
 
-![Ping Test](ping_test.png)
+![Ping Test](screenshots/ping_test.png)
 
 ---
 
 ### 🔹 TCP Traffic Test
 
-![TCP Test](tcp_test.png)
+![TCP Test](screenshots/tcp_test.png)
 
 ---
 
 ### 🔹 UDP Traffic Test
 
-![UDP Test](udp_test.png)
+![UDP Test](screenshots/udp_test.png)
 
 ---
 
 ### 🔹 Ryu Controller Initialization
 
-![Controller Start](ryu_initialisation.png)
+![Controller Start](screenshots/ryu_initialisation.png)
 
 ---
 
 ### 🔹 TCP Detection Output
 
-![TCP Output](controller_output_1.png)
+![TCP Output](screenshots/controller_output_1.png)
 
 ---
 
 ### 🔹 UDP & ICMP Detection Output
 
-![UDP Output](controller_output_2.png)
+![UDP Output](screenshots/controller_output_2.png)
 
 ---
 
 ### 🔹 Mininet Cleanup
 
-![Cleanup](cleanup.png)
+![Cleanup](screenshots/cleanup.png)
 
 ---
 
-## 📊 Sample Output
+##  Sample Output
 
 ```
 TCP detected
@@ -164,7 +164,7 @@ ICMP packet detected
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 The system successfully:
 
@@ -176,7 +176,7 @@ This demonstrates effective traffic classification using SDN.
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 * Add GUI dashboard
 * Store statistics in database
@@ -184,7 +184,7 @@ This demonstrates effective traffic classification using SDN.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Mallikarjuna Rao R V
-USN: PES1UG24AM155
+SRN: PES1UG24AM155
