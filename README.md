@@ -103,43 +103,43 @@ h2 iperf -c 10.0.0.1 -u -b 10M
 
 ### 🔹 Network Setup
 
-![Network Setup](network setup.png)
+![Network Setup](network_setup.png)
 
 ---
 
 ### 🔹 Ping Test (ICMP Success)
 
-![Ping Test](ping test.png)
+![Ping Test](ping_test.png)
 
 ---
 
 ### 🔹 TCP Traffic Test
 
-![TCP Test](tcp test.png)
+![TCP Test](tcp_test.png)
 
 ---
 
 ### 🔹 UDP Traffic Test
 
-![UDP Test](udp test.png)
+![UDP Test](udp_test.png)
 
 ---
 
 ### 🔹 Ryu Controller Initialization
 
-![Controller Start](ryu initialisation.png)
+![Controller Start](ryu_initialisation.png)
 
 ---
 
 ### 🔹 TCP Detection Output
 
-![TCP Output](controller output 1.png)
+![TCP Output](controller_output_1.png)
 
 ---
 
 ### 🔹 UDP & ICMP Detection Output
 
-![UDP Output](controller output 2.png)
+![UDP Output](controller_output_2.png)
 
 ---
 
